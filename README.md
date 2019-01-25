@@ -88,10 +88,15 @@ My icon is using iron man, you can change to your own icon at `css/image`.
 
 ## Hexo Basics
 
-Some hexo command(**And if you use travis-ci, you don't need to run those command every time by yourself.**):
+New Article:
 
 ```bash
 hexo new post "<post name>" # you can change post to another layout if you want
+```
+
+Some hexo command(**And if you use travis-ci, you don't need to run those command every time by yourself.**):
+
+```bash
 hexo clean && hexo generate # generate the static file
 hexo server # run hexo in local environment
 hexo deploy # hexo will push the static files automatically into the specific branch(gh-pages) of your repo!
