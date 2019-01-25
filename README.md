@@ -9,6 +9,7 @@
 - Third, I also integrated the [Travis-CI](http://travis-ci.org) into it, so you can just write post, and push it to your repo, and the Travis-CI will deploy your website automatically. About the travis-ci configuration, see [here](./.travis.yml)
 - Fourth, I didn't integrated the reward function into it, because I thinking I write for nothing, just share my knowledge, but if you want it, maybe learn from another version: [hexo-theme-huweihuang](https://github.com/huweihuang/hexo-theme-huweihuang.git)
 - Fifth, better read more doc about [Travis-CI](http://travis-ci.org) and [Coding](https://coding.net) if you need. Here are some of the documents I looked at when I encountered problems: [Travis Start](https://docs.travis-ci.com/user/tutorial/), [Coding.net Domain Connect](https://coding.net/help/doc/pages/domain.html). If you wanna use both Github and Coding, better bind the domain name to the project on the coding first, then github. It's difficult.
+- Sixth, update some old npm modules.
 
 # Attention
 
