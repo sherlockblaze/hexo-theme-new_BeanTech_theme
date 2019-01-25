@@ -12,9 +12,9 @@
 
 # Attention
 
-***you'll see some variable named like __GITHU_TOKEN__ *** and so on, they're the environment variables I configured in Travis-CI, so if you want to use Travis-CI, you maybe do it like what I did, it's keep your variables more secret, more safe, especially your Github Token and Coding.net Token. If you don't know how to get one, try this [passage](https://console.bluemix.net/docs/services/ghededicated/index.html#gheded_getting_started), and coding.net is similar with it, try figure it out by yourself.
+you'll see some variable named like `__GITHU_TOKEN__` and so on, they're the environment variables I configured in Travis-CI, so if you want to use Travis-CI, you maybe do it like what I did, it's keep your variables more secret, more safe, especially your Github Token and Coding.net Token. If you don't know how to get one, try this [passage](https://console.bluemix.net/docs/services/ghededicated/index.html#gheded_getting_started), and coding.net is similar with it, try figure it out by yourself.
 
-***And if you have any question about all of it, try to leave a comments on this [page](https://sherlockblaze.com/about/)***, I'll reply you as soon as possible. Thanks.
+And if you have any question about all of it, try to leave a comments on this [page](https://sherlockblaze.com/about/), I'll reply you as soon as possible. Thanks.
 
 # Note
 
