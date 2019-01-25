@@ -1,0 +1,43 @@
+.v .vinput {
+  font-size: 1.5rem !important;
+}
+
+.v .veditor {
+  font-size: 1.5rem !important;
+}
+
+.v .vbtn {
+  font-size: 1.5rem !important;
+}
+
+.v .vinfo .col {
+  font-size: 1.5rem !important;
+}
+
+.v .vinfo .vcount .vnum {
+  font-size: 1.5rem !important;
+}
+
+.v .power {
+  display: none !important;
+}
+
+.v .vlist .vcard .vhead .vnick {
+  font-size: 1.5rem !important;
+}
+
+.v .vlist .vcard .vhead .vsys {
+  font-size: 1.2rem !important;
+}
+
+.v .vlist .vcard .vh .vtime {
+  font-size: 1.2rem !important;
+}
+
+.v .vlist .vcard .vh .vat {
+  font-size: 1.2rem !important;
+}
+
+.v .vlist .vcard .vcontent {
+  font-size: 1.5rem !important;
+}

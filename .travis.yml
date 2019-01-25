@@ -1,0 +1,28 @@
+language: node_js
+node_js:
+- 10.15.0
+branches:
+  only:
+  - master # whatever you want
+
+install: npm install
+
+notifications:
+  email:
+    recipients:
+      - yours #email
+    on_success: change
+    on_failure: always
+
+before_script:
+- git config --global user.name "yourname"
+- git config --global user.email "youremail"
+- sed -i "s/__GITHUB_TOKEN__/${__GITHUB_TOKEN__}/" _config.yml
+- sed -i "s/__CODING_TOKEN__/${__CODING_TOKEN__}/" _config.yml
+- sed -i "s/__VISITORS_APPID__/${__VISITORS_APPID__}/" _config.yml
+- sed -i "s/__VISITORS_APPKEY__/${__VISITORS_APPKEY__}/" _config.yml
+
+script: npm run build
+
+after_success:
+- hexo deploy
