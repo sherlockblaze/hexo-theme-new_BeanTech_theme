@@ -98,8 +98,13 @@ Some hexo command(**And if you use travis-ci, you don't need to run those comman
 
 ```bash
 hexo clean && hexo generate # generate the static file
-hexo server # run hexo in local environment
 hexo deploy # hexo will push the static files automatically into the specific branch(gh-pages) of your repo!
+```
+
+If you wanna see your blog at local first, use this command.
+
+```bash
+hexo server # run hexo in local environment
 ```
 
 # Have fun ^_^ 
